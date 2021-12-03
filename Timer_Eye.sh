@@ -12,10 +12,11 @@ MD = [str(x).zfill(2) for x in range(00, 6)]
 # PEGA HORA MINUTO E SEGUNDO ATUAL
 now = datetime.now()
 # APENAS A HORA (sem minutos e segundos)
-current_hora = now.strftime("%H")
+#current_hora = now.strftime("%H")
 
 while True:
     time.sleep(3)
+    current_hora = now.strftime("%H")
     # NOITE (EVENING)
     if current_hora in NT:
         time.sleep(5)

@@ -2,7 +2,7 @@
 
 REQUERIMENTOS:
 Basta ter instalado no sistema o software 'sct' :
-sudo apt install sct. E as bibliotecas 'time' e 'subprocess' do Python.
+sudo "sudo apt install sct" E as bibliotecas 'time' e 'subprocess' do Python.
 
 
 Script criado (em Python) para substituir os filtros de luz azul do Debian 11 (os quais não funcionaram na minha máquina, devido (acredito eu) à incompatibilidade com o WayLand ). 
